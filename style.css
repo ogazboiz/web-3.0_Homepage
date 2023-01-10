@@ -1,11 +1,24 @@
-* {
-  margin: 0;
-  padding: 0;
+/* Family: [Inter](https://fonts.google.com/specimen/Inter) */
+@font-face {
+  font-family: Inter-Regular;
+  src: url(/assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: Inter-Bold;
+  src: url(/assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: Inter-ExtraBold;
+  src: url(/assets/fonts/static/Inter-ExtraBold.ttf);
 }
 body {
   background-color: hsl(36, 100%, 99%);
   box-sizing: border-box;
-  padding: 2rem 2rem;
+  padding: 2rem 0;
+  width: 90%;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
 }
 
 .style-color a {
@@ -30,4 +43,31 @@ body {
 .title-style {
   font-weight: 900;
   width: 70%;
+  font-family: "Inter-ExtraBold";
+}
+.web-three {
+  margin-top: 2rem;
+}
+.container {
+  margin-top: 2rem;
+}
+.accessories-details {
+  margin-top: 4rem;
+  width: 100%;
+}
+.tools {
+  color: hsl(236, 13%, 42%);
+}
+p {
+  font-size: 15px;
+  font-size: "Inter-Regular";
+  color: hsl(236, 13%, 42%);
+}
+h5 {
+  font-family: "Inter-Bold";
+}
+h4 {
+  font-family: "Inter-Regular";
+  font-weight: 300;
+  color: hsl(233, 8%, 79%);
 }
