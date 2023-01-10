@@ -20,6 +20,9 @@ body {
   margin: auto;
   align-items: center;
 }
+.style-color a:hover {
+  color: hsl(5, 85%, 63%);
+}
 
 .style-color a {
   color: hsl(240, 100%, 5%);
@@ -49,14 +52,24 @@ body {
   margin-top: 2rem;
 }
 .container {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .accessories-details {
-  margin-top: 4rem;
+  margin-top: 2rem;
   width: 100%;
 }
 .tools {
   color: hsl(236, 13%, 42%);
+}
+.tool a:link {
+  text-decoration: none;
+}
+.tool a {
+  color: hsl(240, 100%, 5%);
+  text-decoration: none;
+}
+.tool a:hover {
+  color: hsl(5, 85%, 63%);
 }
 p {
   font-size: 15px;
@@ -65,6 +78,7 @@ p {
 }
 h5 {
   font-family: "Inter-Bold";
+  font-weight: 400;
 }
 h4 {
   font-family: "Inter-Regular";
