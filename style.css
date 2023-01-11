@@ -189,7 +189,7 @@ h4 {
   }
   .mobile-img {
     display: block;
-    width: 308px;
+    width: 100%;
   }
   .New {
     margin-top: 2rem;
