@@ -20,6 +20,9 @@ body {
   margin: auto;
   align-items: center;
 }
+.mobile-img {
+  display: none;
+}
 .style-color a:hover {
   color: hsl(5, 85%, 63%);
 }
@@ -29,12 +32,24 @@ body {
 }
 .New {
   background-color: hsl(240, 100%, 5%);
-  color: hsl(36, 100%, 99%);
+  padding-top: 2rem;
 }
 .New h1 {
   color: hsl(35, 77%, 62%);
+  margin-bottom: 0.9rem;
+}
+.news-section a:link {
+  text-decoration: none;
+}
+.news-section a {
+  color: hsl(36, 100%, 99%);
+  text-decoration: none;
+}
+.news-section a:hover {
+  color: hsl(35, 77%, 62%);
 }
 .line {
+  margin: 2rem 0;
   border-top: 2px solid hsl(236, 13%, 42%);
 }
 .btn-style {
@@ -42,6 +57,13 @@ body {
   background-color: hsl(5, 85%, 63%);
   border: none;
   color: hsl(36, 100%, 99%);
+  cursor: pointer;
+}
+a {
+  cursor: pointer;
+}
+.btn-style:hover {
+  background-color: hsl(240, 100%, 5%);
 }
 .title-style {
   font-weight: 900;
@@ -54,12 +76,12 @@ body {
 .container {
   margin-top: 1rem;
 }
-.accessories-details {
+.accessories-detail {
   margin-top: 2rem;
   width: 100%;
 }
 .tools {
-  color: hsl(236, 13%, 42%);
+  color: hsl(236, 19%, 72%);
 }
 .tool a:link {
   text-decoration: none;
@@ -71,10 +93,11 @@ body {
 .tool a:hover {
   color: hsl(5, 85%, 63%);
 }
+
 p {
   font-size: 15px;
   font-size: "Inter-Regular";
-  color: hsl(236, 13%, 42%);
+  color: hsl(236, 19%, 72%);
 }
 h5 {
   font-family: "Inter-Bold";
@@ -84,4 +107,37 @@ h4 {
   font-family: "Inter-Regular";
   font-weight: 300;
   color: hsl(233, 8%, 79%);
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .web-img {
+    display: none;
+  }
+  .mobile-img {
+    display: block;
+  }
+  .New {
+    margin-top: 2rem;
+    margin-left: 15px;
+  }
+  .accessories-detail {
+    margin-left: 15px;
+    margin-top: 2rem;
+  }
+  .tool {
+    margin-left: 0;
+  }
+  .tool p {
+    width: 89%;
+  }
+  .tool a:hover {
+    color: hsl(5, 85%, 63%);
+  }
+  .acess-margin {
+    margin-bottom: 2rem;
+  }
+  .acess-margin img {
+    height: 133px;
+  }
 }
