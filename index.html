@@ -29,7 +29,7 @@
     </style>
   </head>
   <body style="margin: auto">
-    <nav class="navbar navbar-expand-lg style-color">
+    <!-- <nav class="navbar navbar-expand-lg style-color">
       <a class="navbar-brand" href="#"
         ><img src="/assets/images/logo.svg" alt="" srcset=""
       /></a>
@@ -63,6 +63,18 @@
           </li>
         </ul>
       </div>
+    </nav> -->
+    <nav style="display: flex;">
+      <div class="logo"><img src="/assets/images/logo.svg" alt="W-logo" /></div>
+      <ul id="click">
+        <img  src="/assets/images/icon-menu-close.svg" onclick="hideMenu()"></img>
+        <li><a href="http://"> Home</a></li>
+        <li><a href="http://">New</a></li>
+        <li><a href="http://">Popular</a></li>
+        <li><a href="http://">Trending</a></li>
+        <li><a href="http://">Categories</a></li>
+      </ul>
+      <img  class="icon-menu" src="/assets/images/icon-menu.svg" alt="" srcset="" onclick="showMenu()">
     </nav>
     <section class="accessories-details">
       <div class="row container">
@@ -75,7 +87,7 @@
           <img
             class="mobile-img"
             src="/assets/images/image-web-3-mobile.jpg"
-            width="100%"
+            width="308px"
           />
           <div class="row web-three">
             <div class="col-lg-6">
